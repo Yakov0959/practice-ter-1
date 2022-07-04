@@ -19,6 +19,25 @@ variable "EC2_name" {
   default = "my_ec2"
 }
 
+variable "region" {
+  type = string
+  default = "eu-west-2"
+}
+
+variable "availability_zones" {
+  type = string
+  default = "eu-west-2a"
+}
+
+variable "AK" {
+  type = string
+
+}
+
+variable "SK" {
+  type = string
+
+}
 
 
 
